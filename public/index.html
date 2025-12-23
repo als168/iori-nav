@@ -131,19 +131,20 @@
     </section>
     
     <footer class="{{FOOTER_CLASS}}">
-      <div class="max-w-5xl mx-auto text-center">
-        <a href="/" class="flex items-center hover:text-primary-500 transition-colors"> 
-          <img src="https://xiaa.dpdns.org/file/1766459836080_daohan.png" 
-               alt="奇迹导航 Logo" 
-               class="h-5 w-5 object-contain bg-white p-1 rounded mr-1 dark:bg-white"> 
-         <span class="dark:text-gray-200">奇迹导航</span> 
-        </a>
-          <span class="text-gray-300">|</span>
-          <p>© {{CURRENT_YEAR}} {{FOOTER_TEXT}}</p>
-        </div>
-      </div>
-    </footer>
-  </main>
+  <div class="max-w-5xl mx-auto text-center">
+    <div class="flex justify-center items-center space-x-4">
+      <a href="/" class="flex items-center hover:text-primary-500 transition-colors">
+        <img src="https://xiaa.dpdns.org/file/1766459836080_daohan.png"
+             alt="奇迹导航 Logo"
+             class="h-5 w-5 object-contain bg-white p-1 rounded mr-1 dark:bg-white">
+        <span class="dark:text-gray-200">奇迹导航</span>
+      </a>
+      <span class="text-gray-300 dark:text-gray-600">|</span>
+      <p class="text-gray-500 dark:text-gray-400">© {{CURRENT_YEAR}} {{FOOTER_TEXT}}</p>
+    </div>
+  </div>
+</footer>
+</main>
   
   <button id="backToTop" class="fixed bottom-8 right-8 p-3 rounded-full bg-accent-500 text-white shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-accent-600">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
